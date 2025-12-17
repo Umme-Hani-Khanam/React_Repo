@@ -1,4 +1,5 @@
-import Counter from "./MyComponents/Counter";
+import Calculator from "./MyComponents/Calculator";
+
 
 
 function App()
@@ -6,7 +7,7 @@ function App()
   return(
     <div>
       
-    <Counter/>
+    <Calculator />
   </div>
   )
 }
