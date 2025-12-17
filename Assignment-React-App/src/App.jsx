@@ -1,11 +1,12 @@
-import Component from "./Component";
+import Counter from "./MyComponents/Counter";
+
 
 function App()
 {
   return(
     <div>
       
-    <Component/>
+    <Counter/>
   </div>
   )
 }
