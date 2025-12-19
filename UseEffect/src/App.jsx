@@ -1,15 +1,18 @@
-import React from 'react'
-import ColorToggle from './ColorToggle';
+import { useState } from "react";
+import TodosList from "./TodoList";
 
-// import StatusToggle from './StatusToggle';
+function App() {
+  const [showTodos, setShowTodos] = useState(true);
 
-const App = () => {
   return (
     <div>
-      {/* <StatusToggle/> */}
-    
-    <ColorToggle/>
+      <button onClick={() => setShowTodos(false)}>
+        Unmount Todos
+      </button>
+
+      {showTodos && <TodosList />}
     </div>
-  )
+  );
 }
-export default App; 
+
+export default App;
