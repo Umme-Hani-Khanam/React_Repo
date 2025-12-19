@@ -1,9 +1,9 @@
-import React from 'react'
+// import React from 'react'
 
-const ComponentB = () => {
-  return (
-    <div>ComponentB</div>
-  )
-}
+// const ComponentB = () => {
+//   return (
+//     <div>ComponentB</div>
+//   )
+// }
 
-export default ComponentB
+// export default ComponentB

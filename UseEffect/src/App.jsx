@@ -1,11 +1,14 @@
 import React from 'react'
+import ColorToggle from './ColorToggle';
 
-import StatusToggle from './StatusToggle';
+// import StatusToggle from './StatusToggle';
 
 const App = () => {
   return (
     <div>
-      <StatusToggle/>
+      {/* <StatusToggle/> */}
+    
+    <ColorToggle/>
     </div>
   )
 }
